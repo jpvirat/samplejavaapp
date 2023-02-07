@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-        maven "maven3.6.3"
+        maven "mvn"
     }
     stages {
         stage('compile') {
